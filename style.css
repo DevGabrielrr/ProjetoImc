@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(blue,BlueViolet,HotPink,LightCoral);
+    height: 100vh;
+     
+} 
+#borda{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow:0px 1px 6px 3px;
+} 
+h1,h2 {
+    text-align: center;
+    padding-bottom: 30px;
+} 
+
+label {
+    margin-left: 39%;
+    width: 20%;
+    font-size: 23px;
+   
+}
+
+input{
+    margin-left: 42%;
+    margin-top: 25px;
+    width: 20%;
+    border:none;
+    background:Violet ;
+    
+}
+hr {
+    width: 40%;
+    height: 1px;
+    background: black;
+    
+}
+
+#enviar {
+    width:25%;
+    height: 5%;
+    margin: 3% 38%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 16px;
+    color: white;
+    background: black;
+    cursor:pointer;
+
+}
+
+#enviar:hover{
+    background: LightCoral;
+}
